@@ -1,0 +1,31 @@
+﻿Build started 11/17/2014 6:59:24 PM.
+     1>Project "C:\Users\Matthew\Desktop\shrdfldr\shapesPewPeww\shapesPewPeww\shapesPewPeww.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I".\dev\glew-1.10.0\include" /I.\dev\glm /I".\dev\SDL2-2.0.3\include" /I".\dev\jsoncpp-master\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CPlayer.cpp
+         CPlayer.cpp
+     1>c:\users\matthew\desktop\shrdfldr\shapespewpeww\shapespewpeww\ccamera.hpp(31): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\matthew\desktop\shrdfldr\shapespewpeww\shapespewpeww\ccamera.hpp(32): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\matthew\desktop\shrdfldr\shapespewpeww\shapespewpeww\cplayer.cpp(41): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\matthew\desktop\shrdfldr\shapespewpeww\shapespewpeww\cplayer.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matthew\Desktop\shrdfldr\shapesPewPeww\Debug\shapesPewPeww.exe" /INCREMENTAL /NOLOGO /LIBPATH:".\dev\glew-1.10.0\lib\Release\Win32" /LIBPATH:".\dev\SDL2-2.0.3\lib\x86" /LIBPATH:".\dev\jsoncpp-master\makefiles\msvc2010\Debug" SDL2main.lib SDL2.lib opengl32.lib glu32.lib glew32.lib lib_json.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Matthew\Desktop\shrdfldr\shapesPewPeww\Debug\shapesPewPeww.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matthew\Desktop\shrdfldr\shapesPewPeww\Debug\shapesPewPeww.lib" /MACHINE:X86 Debug\CCamera.obj
+         Debug\CClock.obj
+         Debug\CEventManager.obj
+         Debug\CGLBuffer.obj
+         Debug\CGLBufferManager.obj
+         Debug\CGLShaderManager.obj
+         Debug\CLocation.obj
+         Debug\CMap.obj
+         Debug\CMapChunk.obj
+         Debug\CPlayer.obj
+         Debug\CSDLManager.obj
+         Debug\CSession.obj
+         Debug\CGLShader.obj
+         Debug\IUnit.obj
+         Debug\main.obj
+         shapesPewPeww.vcxproj -> C:\Users\Matthew\Desktop\shrdfldr\shapesPewPeww\Debug\shapesPewPeww.exe
+     1>Done Building Project "C:\Users\Matthew\Desktop\shrdfldr\shapesPewPeww\shapesPewPeww\shapesPewPeww.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.55

@@ -1,0 +1,26 @@
+{
+    "name": "buffer_walldown",
+    "type": "buffer",
+
+    "shader": "shader_default",
+
+    "attributeparameters": {
+        "drawmode": 7,
+        "stride": 2,
+        "attributes": [
+            {
+                "name": "vertex2f",
+                "count": 2,
+                "offset": 0
+            }
+        ]
+    },
+
+    "vertices": [
+        0.000000, 0.125000, 0.000000, -0.125000, 16.000000, -0.125000, 16.000000, 0.125000
+    ],
+
+    "indices": [
+        0, 1, 2, 3
+    ]
+}

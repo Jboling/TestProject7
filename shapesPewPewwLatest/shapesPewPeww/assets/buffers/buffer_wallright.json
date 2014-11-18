@@ -1,0 +1,26 @@
+{
+    "name": "buffer_wallright",
+    "type": "buffer",
+
+    "shader": "shader_default",
+
+    "attributeparameters": {
+        "drawmode": 7,
+        "stride": 2,
+        "attributes": [
+            {
+                "name": "vertex2f",
+                "count": 2,
+                "offset": 0
+            }
+        ]
+    },
+
+    "vertices": [
+        15.875000, 0.000000, 16.125000, 0.000000, 16.125000, 16.000000, 15.875000, 16.000000
+    ],
+
+    "indices": [
+        0, 1, 2, 3
+    ]
+}
